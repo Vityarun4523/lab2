@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Вычислить квадратное уравнение"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/text"
+        android:layout_marginTop="400dp"
+        android:textSize="20sp"
+        />
+    <EditText
+        android:id="@+id/edit_c"
+        android:inputType="numberDecimal|numberSigned"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="c"
+        android:ems="5"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+
+        />
+    <EditText
+        android:id="@+id/edit_b"
+        android:inputType="numberDecimal|numberSigned"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="b"
+        android:ems="5"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        />
+
+    <EditText
+        android:id="@+id/edit_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:hint="a"
+        android:ems="5"
+        android:gravity="center_horizontal"
+        android:inputType="numberDecimal|numberSigned" />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Вычислить"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        />
+</RelativeLayout>
