@@ -41,13 +41,13 @@ import android.widget.TextView;
 
                     if (d == 0 && a != 0 && b != 0) {
                         x1 = -b / (2 * a);
-                        text.setText("d = " + d + "\nx = " + x1);
+                        text.setText("d = " + d + "\nx1 = x2 = " + x1);
                     } else if (d < 0 && a != 0 && b != 0) {
                         text.setText("Нет корней!");
                     } else if (d > 0 && a != 0 && b != 0 || d > 0 && a != 0) {
                         x1 = (float) ((-b + Math.sqrt(d)) / (2 * a));
                         x2 = (float) ((-b - Math.sqrt(d)) / (2 * a));
-                        text.setText("d = " + d + "\nx1 = " + x1 + "\nx2 = " + x1);
+                        text.setText("d = " + d + "\nx1 = " + x1 + "\nx2 = " + x2);
                     } else if(a == 0 && b != 0){
                         text.setText("Уравнение не является квадратным!");
                     } else if (a == 0 && b == 0) {
